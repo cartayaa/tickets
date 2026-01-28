@@ -1,0 +1,26 @@
+# --- Entorno de Python ---
+Scripts/
+venv/
+lib/
+lib/site-packages
+/Include
+/share
+.env
+__pycache__/
+*.pyc
+pyvenv.cfg
+
+# --- Base de Datos ---
+# Bloqueamos la base de datos para que no se sobrescriba entre PCs
+gestion_slots.db
+
+# --- Ejecutables y Compilación ---
+dist/
+build/
+*.spec
+
+# --- Archivos de Sistema/Editor ---
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

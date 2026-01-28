@@ -1,0 +1,8 @@
+
+# 1. Crear el entorno (si no lo tienes)
+python -m menv tickets
+
+# 2. Activar el entorno - En Windows:
+.\tickets\Scripts\activate
+
+pip install -r requirements.txt
