@@ -2,6 +2,7 @@ import customtkinter as ctk
 from utils.database import inicializar_db, cargar_ajustes
 from views import LogoFrame, DashboardFrame, AgendaFrame, DisponibilidadFrame, AjustesFrame
 
+
 class App(ctk.CTk):
     def __init__(self):
         super().__init__()
